@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Poin peserta pelatihan IT Desa Aikmel Utara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> Sistem Poin <br>Peserta Pelatihan IT Desa Aikmel Utara</h1>
+
+    <div class="container">
+        <form id="addParticipantForm">
+            <input type="text" id="newNama" placeholder="Enter new participant name" required>
+            <button type="submit">Add Participant</button>
+        </form>
+        
+        <h2>Tambah Poin</h2>
+        <form id="poinForm">
+            <label for="nama">Nama:</label>
+            <select id="nama" required>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <label for="poin">Poin:</label>
+            <input type="number" id="poin" min="1" required>
+            <button type="submit">Tambahkan Poin</button>
+        </form>
+
+        
+        <!-- Reset Points Button -->
+        <button id="resetBtn">Reset All Points</button>
+        
+        <!-- Section to display the points list -->
+        <div id="poinStats"></div>
+        
+    </div>
+
+    <div class="container">
+        <h2>Daftar Poin</h2>
+        <div id="poinStats">
+            <!-- Poin statistics will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

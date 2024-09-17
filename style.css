@@ -1,0 +1,201 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#poinStats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.stat-item {
+  flex: 1 1 calc(33% - 20px);
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.stat-item h3 {
+  margin-top: 0;
+}
+
+.stat-item .poin-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.color1 {
+  background-color: #d1e7dd;
+}
+
+.color2 {
+  background-color: #cfe2ff;
+}
+
+.color3 {
+  background-color: #fff3cd;
+}
+
+.color4 {
+  background-color: #f8d7da;
+}
+
+.color5 {
+  background-color: #d9f99d;
+}
+
+.color6 {
+  background-color: #e2d3c5;
+}
+
+.color7 {
+  background-color: #f5c6cb;
+}
+
+.color8 {
+  background-color: #d1ecf1;
+}
+
+.color9 {
+  background-color: #d0f0c0;
+}
+
+.color10 {
+  background-color: #e6b8af;
+}
+
+.color11 {
+  background-color: #d0e9f6;
+}
+
+.color12 {
+  background-color: #c1e1c1;
+}
+
+.color13 {
+  background-color: #d3c6e3;
+}
+
+.color14 {
+  background-color: #f9e2e2;
+}
+
+.color15 {
+  background-color: #f0c4a1;
+}
+
+.color16 {
+  background-color: #c3e5d8;
+}
+.color17 {
+   background-color: #aa8ff4;
+   }
+
+
+/* Previous CSS styles remain unchanged */
+
+.stat-item {
+  position: relative;
+  /* Existing styles */
+}
+
+.remove-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #c82333;
+}
+
+/* Existing CSS styles */
+
+.stat-item {
+  position: relative;
+  /* Existing styles */
+}
+
+.remove-btn,
+.decrease-btn {
+  position: absolute;
+  top: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.decrease-btn {
+  background-color: #ffc107;
+  right: 40px;
+  /* Adjust the position for the decrease button */
+}
+
+.remove-btn:hover {
+  background-color: #c82333;
+}
+
+.decrease-btn:hover {
+  background-color: #e0a800;
+}
